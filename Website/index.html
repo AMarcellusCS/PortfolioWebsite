@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adrian Marcellus</title>
+    <meta name="description" content="Adrian Marcellus Portfolio Website">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Adrian Marcellus">
+    <link rel="icon" href="./images/myuglymug.ico">
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./images/myuglymug.jpg" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#education" class="scroll-link">education</a>
+              </li>
+              <li>
+                <a href="#project" class="scroll-link">projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>Adrian Marcellus</h1>
+          <p>
+            Hi! My name is Adrian and I'm a CS major!
+          </p>
+          <a href="mailto:adrianmarcelluscs@gmail.com" class="btn btn-white">contact me!</a>
+          <a href="https://docs.google.com/document/d/1Qp3bmDxyQK7gXgdFD1kXJNEo4l7uJHP9ysSnbWpjfaI/edit?usp=sharing" class="btn btn-white">Resume</a>
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <div>
+    <section id="about" class="section">
+      <div class="title">
+        <h2>about <span>me</span></h2>
+      </div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./images/myuglymug.jpg" alt="" />
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="Basic Info">Basic Info</button>
+            <button class="tab-btn" data-id="Languages">Languages</button>
+            <button class="tab-btn" data-id="Experience">Experience</button>
+          </div>
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="Basic Info">
+              <h4>Basic Info</h4>
+              <p>
+                My full name is Adrian Lee Marcellus. I'm 23 and I'm a Rochester native.
+                I'm looking to make a long term career in Computer Science! 
+                I'm still not sure what im going to specialize in, but I'm looking forward to finding something I'm passionate about!
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="Languages">
+              <h4>Languages</h4>
+              <p>
+                I have coded in:
+              </p>
+              <ul>
+                <li>-Java</li>
+                <li>-C#</li>
+                <li>-Javascript</li>
+                <li>-Html and CSS</li>
+              </ul>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="Experience">
+              <h4>Experience</h4>
+              <p>
+                Error404: Looking to fill this soon!
+              </p>
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+      </div>
+    </section>
+    </div>
+    <!-- education -->
+    <div>
+    <section id="education" class="section">
+      <div class="title">
+        <h2>my <span>education</span></h2>
+      </div>
+      <div class="education-center section-center">
+        <article class="education-img">
+          <img src="./images/DegreeAssociates.jpg" alt="" />
+        </article>
+        <article class="education">
+          <!-- btn container -->
+          <div class="edu-btn-container">
+            <button class="edu-tab-btn active" data-id="Associates">Associates</button>
+            <button class="edu-tab-btn" data-id="Bachelors">Bachelors (Plans)</button>
+          </div>
+          <div class="education-content">
+            <!-- single item -->
+            <div class="edu-content active" id="Associates">
+              <h4>Associates</h4>
+              <p>
+                I graduated from <a href="https://www.flcc.edu/">Finger Lakes Community College</a> with Honors on December 20th, 2020. I graduated with a GPA of 3.7
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="edu-content" id="Bachelors">
+              <h4>Bachelors</h4>
+              <p>
+                Currently have tentative plans to attend <a href="https://www.rit.edu/">Rochester Institute of Technology</a> (RIT) for bachelors in computer science.
+              </p>
+            </div>
+            <!-- end of sing -->
+          </div>
+        </article>
+    </section>
+    </div>
+    <!-- projects -->
+    <div>
+    <section id="project" class="section">
+      <div class="title">
+        <h2>My <span>projects</span></h2>
+      </div>
+      <div class="project-center section-center">
+        <article class="project">
+          <!-- btn container -->
+          <div class="proj-btn-container">
+            <button class="proj-tab-btn active" data-id="Website"> Portfolio Website</button>
+          </div>
+          <div class="project-content">
+            <!-- single item -->
+            <div class="proj-content active" id="Website">
+              <h4>AdrianMarcellus Website</h4>
+              <p>
+                This website is a rough draft of my first javascript, HTML, and CSS project! The more I learn, the more the website will improve and expand! Feedback on what is good and bad about the website is appreciated!
+              </p>
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+      </div>
+    </section>
+    </div>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        Connect with me on the following platforms!
+      </p>
+      <ul class="social-icons">
+        <li>
+          <a href="https://github.com/AMarcellusCS">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/adrian-marcellus-656ab6192/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>

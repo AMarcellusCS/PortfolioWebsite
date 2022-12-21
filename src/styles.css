@@ -605,7 +605,6 @@ Social Icons
 ===============
 */
 .social-icons {
-  justify-self: center;
   display: flex;
   padding-bottom: 2rem;
 }

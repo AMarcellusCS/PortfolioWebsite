@@ -116,3 +116,25 @@ education.addEventListener("click", function (e) {
     element.classList.add("active");
   }
 });
+
+// ********** project article buttons ************
+const projects = document.querySelector(".project");
+const projBtns = document.querySelectorAll(".proj-tab-btn");
+const projArticles = document.querySelectorAll(".proj-content");
+
+projects.addEventListener("click", function (e) {
+  const id = e.target.dataset.id;
+  if (id) {
+    // remove selected from other buttons
+    projBtns.forEach(function (btn) {
+      btn.classList.remove("active");
+    });
+    e.target.classList.add("active");
+    // hide other articles
+    projArticles.forEach(function (article) {
+      article.classList.remove("active");
+    });
+    const element = document.getElementById(id);
+    element.classList.add("active");
+  }
+});
